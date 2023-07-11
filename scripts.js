@@ -24,3 +24,14 @@ function numeromayor (num1, num2) {
     }
 
 }
+
+// Ejercicio 3
+
+function multiplode5 (numero) {
+    if (numero % 5 === 0) {
+        console.log (numero + " es multiplo de 5")
+    } 
+    else 
+    { console.log (numero + " no es multiplo de 5")
+    }
+}
