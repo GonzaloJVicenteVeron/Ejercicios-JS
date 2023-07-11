@@ -52,3 +52,11 @@ function imprimirpalabraNumerodeveces (palabra, veces) {
         console.log (palabra);
     }
 }
+
+//Ejercicio 6
+
+function printarray (array) {
+    array.forEach (function (elemento) {
+        console.log (elemento);
+    }); 
+}
