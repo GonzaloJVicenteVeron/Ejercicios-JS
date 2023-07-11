@@ -64,5 +64,9 @@ function printarray (array) {
 // Ejercicio 7
 
 function printarraybutnoFifth (array) {
-    
+    array.forEach (function (elemento,indice){
+        if (indice !== 4){
+            console.log (elemento);
+        }
+    }); 
 }
