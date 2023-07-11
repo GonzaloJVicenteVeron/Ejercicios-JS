@@ -60,3 +60,9 @@ function printarray (array) {
         console.log (elemento);
     }); 
 }
+
+// Ejercicio 7
+
+function printarraybutnoFifth (array) {
+    
+}
