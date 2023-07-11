@@ -10,6 +10,10 @@ function ParOImpar (numero) {
 
     }
 
+    var numero1 = 7;
+    ParOImpar(numero1)
+
+
 // Ejercicio 2
 
 function numeromayor (num1, num2) {
@@ -25,6 +29,12 @@ function numeromayor (num1, num2) {
 
 }
 
+    var numero2 = 10;
+    var numero3 = 5;
+    numeromayor(numero2, numero3);
+
+
+
 // Ejercicio 3
 
 function multiplode5 (numero) {
@@ -36,6 +46,10 @@ function multiplode5 (numero) {
     }
 }
 
+    var numero4 = 25;
+    multiplode5(numero4);
+
+
 
 //Ejercicio 4
 
@@ -45,6 +59,10 @@ function imprimirnumeroshasta (numero) {
     }
 }
 
+    var numero5 = 5;
+    imprimirnumeroshasta(numero5);
+
+
 //Ejercicio 5
 
 function imprimirpalabraNumerodeveces (palabra, veces) {
@@ -53,6 +71,11 @@ function imprimirpalabraNumerodeveces (palabra, veces) {
     }
 }
 
+    var palabra = "Hola";
+    var cantidad = 3;
+    imprimirpalabraNumerodeveces(palabra, cantidad);
+
+
 //Ejercicio 6
 
 function printarray (array) {
@@ -60,6 +83,10 @@ function printarray (array) {
         console.log (elemento);
     }); 
 }
+
+    var array1 = [1, 2, 3, 4, 5];
+    printarray(array1);
+
 
 // Ejercicio 7
 
@@ -70,3 +97,6 @@ function printarraybutnoFifth (array) {
         }
     }); 
 }
+
+    var array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    printarraybutnoFifth(array2);
