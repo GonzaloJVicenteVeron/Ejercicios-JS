@@ -44,3 +44,11 @@ function imprimirnumeroshasta (numero) {
         console.log (i);
     }
 }
+
+//Ejercicio 5
+
+function imprimirpalabraNumerodeveces (palabra, veces) {
+    for (let i = 1; i <= veces; i++){
+        console.log (palabra);
+    }
+}
