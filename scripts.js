@@ -35,3 +35,12 @@ function multiplode5 (numero) {
     { console.log (numero + " no es multiplo de 5")
     }
 }
+
+
+//Ejercicio 4
+
+function imprimirnumeroshasta (numero) {
+    for (let i = 0; i <= numero; i++) {
+        console.log (i);
+    }
+}
