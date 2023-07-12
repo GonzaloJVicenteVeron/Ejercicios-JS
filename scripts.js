@@ -100,3 +100,13 @@ function printarraybutnoFifth (array) {
 
     var array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     printarraybutnoFifth(array2);
+
+//Ejercicio 8
+
+function xarraypornumero (array,numero) {
+    for (let i = 0; i < array.lenght; i++) {
+        console.log(array [i] * numero);
+    }            
+}
+
+xarraypornumero ([1, 2, 3, 4, 5], 2); 
